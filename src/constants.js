@@ -7,6 +7,33 @@ export const text6 = "Relationship health between you and the person for whom yo
 export const text7 = "Event for which you want to but the gift";
 export const text8 = "Provide your monthly monetary in flow";
 export const text9 = "Provide your bare minimum estimate of the budget";
-export const text9 = "Your Budget for the gift should be";
+export const text10 = "Your Budget for the gift should be";
+export const text11 = "Select the relative importance of the event ";
 export const GO = ["GO","RETRY"];
+export const events = [
+    {
+        value : "1",
+        name : "Marriage"
+    },
+    {
+        value : "0.95",
+        name : "100th year birthday"
+    },
+    {
+        value : "0.92",
+        name : "50th year marriage anniversary"
+    },
+    {
+        value : "0.85",
+        name : "50th year birthday"
+    },
+    {
+        value : "0.80",
+        name : "25th year marriage anniversary"
+    },
+    {
+        value : "",
+        name : "Other"
+    }
+];
 

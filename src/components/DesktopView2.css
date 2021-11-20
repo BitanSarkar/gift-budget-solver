@@ -1,0 +1,66 @@
+.d2body {
+    background-color: aqua;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.d2body .d2head {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.d2body .formIO {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.text4 {
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    margin: auto;
+}
+
+.q1 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.extreme {
+    margin-right: 0px;
+    margin-left: 95%;
+}
+
+
+.q2 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.form-select {
+    width: 80%;
+}
+
+.result {
+    padding-top: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
