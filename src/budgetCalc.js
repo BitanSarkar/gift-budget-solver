@@ -4,7 +4,9 @@ const budgetCalc = (rel,evn,inc,bare) => {
     const budget_round = Math.round(budget*100)/100;
     let prac_budget = Math.min(budget_round, Math.round((0.25*inc)*100)/100)+"";
     const prac_Arr = prac_budget.split(".");
-    if(prac_Arr[1].length === 1)
+    if(prac_Arr.length === 1)
+        prac_budget = prac_budget + ".00";
+    else if(prac_Arr[1].length === 1)
         prac_budget = prac_budget + "0";
     return prac_budget;
 }
