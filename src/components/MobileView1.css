@@ -25,26 +25,26 @@
     padding-bottom: 150px;
 }
 
-.d1body_m .formIO_m .row .col-10 .text2_m {
+.d1body_m .formIO_m .row .col-12 .text2_m {
     font-size: 10px;
     font-style: italic;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-.d1body_m .formIO_m .row .col-10 .text3_m {
+.d1body_m .formIO_m .row .col-12 .text3_m {
     font-size: 10px;
     font-style: italic;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-.d1body_m .formIO_m .row .col-2{
+.d1body_m .formIO_m .row .col-12{
     padding-left: 10px;
     margin: auto;
 }
 
-.d1body_m .formIO_m .row .col-2 .text4_m{
+.d1body_m .formIO_m .row .col-12 .text4_m{
     font-size: 10px;
     font-style: italic;
     font-weight: bolder;
