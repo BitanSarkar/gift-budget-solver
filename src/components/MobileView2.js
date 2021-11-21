@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Cookies from 'universal-cookie/es6';
+import budgetCalc from '../budgetCalc';
 import { text5, text6, text7, text8, text9, text10, text11, GO, events} from '../constants';
 import './MobileView2.css'
 
@@ -20,10 +21,7 @@ const MobileView2= () => {
         const evn = disp?event.target[2].value/100:parseFloat(event.target[1].value);
         const inc = parseFloat(disp?event.target[3].value:event.target[2].value);
         const bare = parseFloat(disp?event.target[4].value:event.target[3].value);
-        console.log(rel,evn,inc,bare)
-        const bud = Math.round((Math.sqrt(inc)*rel*rel*evn*13.6 + bare)*100)/100;
-        const res = Math.min(bud, Math.round((0.25*inc)*100)/100);
-        setBudget("Rs " + res);
+        setBudget("Rs " + budgetCalc(rel,evn,inc,bare));
     }
     const changeHandle = (event) => {
         if(event.target["type"] === "select-one" && event.target.value === ""){
