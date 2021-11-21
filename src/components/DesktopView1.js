@@ -11,8 +11,6 @@ const DesktopView1 = () => {
         cookies.set("fav",event.target[0].value.toUpperCase())
         history.push("/budget-finder");
     }
-    cookies.set('myCat', 'Pacman', { path: '/' });
-    console.log(cookies.get('myCat')); // Pacman
     return (
         <div className="d1body">
             <div className="jumbo">

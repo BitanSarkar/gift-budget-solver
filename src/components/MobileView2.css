@@ -1,0 +1,74 @@
+.d2body_m {
+    background-color: aqua;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.d2body_m .d2head_m {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.d2body_m .formIO_m {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.text4_m {
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.q1_m {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 80%;
+}
+.q1_mx {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.extreme_m {
+    margin-right: 0px;
+    margin-left: 95%;
+}
+
+
+.q2_m {
+    padding-top: 20px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.q2_m .form-select {
+    width: 70%;
+}
+
+.result_m {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+    padding-bottom: 30px;
+}
