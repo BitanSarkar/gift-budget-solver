@@ -20,11 +20,13 @@ const MobileView1 = () => {
             <div className="formIO_m">
                 <form onSubmit={handleSubmit}>
                     <div className="row">
-                        <div className="col-10">
+                        <div className="col-12">
                             <label for="tag1" class="form-label text2_m">{text2}</label>
                             <input type="text" class="form-control text3_m" id="tag1" placeholder="Enter the name here" required="true"/>
                         </div>
-                        <div className="col-2">
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
                         <button type="submit" class="btn btn-success text4_m">{text3}</button>
                         </div>
                     </div>
