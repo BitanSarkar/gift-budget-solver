@@ -1,24 +1,19 @@
 import { useHistory } from "react-router";
 import Cookies from "universal-cookie/es6";
 import { text1, text2, text3, text4 } from "../constants";
+import handleSubmitBut from "../handleSubmitBut";
 import './MobileView1.css';
 
 const MobileView1 = () => {
     const history = useHistory();
     const cookies = new Cookies();
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log(event.target[0].value.toUpperCase());
-        cookies.set("fav",event.target[0].value.toUpperCase())
-        history.push("/budget-finder");
-    }
     return (
         <div className="d1body_m">
             <div className="jumbo_m">
                 {text1}
             </div>
             <div className="formIO_m">
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={(event)=> handleSubmitBut(event,cookies,history)}>
                     <div className="row">
                         <div className="col-12">
                             <label for="tag1" class="form-label text2_m">{text2}</label>
